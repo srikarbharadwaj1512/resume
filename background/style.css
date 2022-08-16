@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap%27);
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+body 
+{
+background : white;
+display: flex;
+justify-content: left;
+align-items: left;
+min-height: 300vh;
+border-left: 20px solid #FFD801;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    min-height:100%;
+    background: white ;
+    margin: 0px;
+    display:flex;
+    float:left;
+   
+
+    grid-template-rows: 40% 40%;
+}
+
+.container .left-side
+{
+    position: relative;    
+    background: #202020;
+    padding: -10px;
+    height: 400px;
+    margin: -20px;
+    width: 100px;
+}
+.container .right-side
+{
+    position: relative;    
+    background: #FFD801;
+    padding-top: -40px;
+    margin-left: -20px;
+    margin-top:10px;
+    height: 300px;
+    width: 1000px;
+
+}
+.container .right 
+{
+    position: relative;
+    background-color: #202020;
+    min-height: 100%;
+    margin-left: 100px;
+    width: 400px;
+
+    
+}
